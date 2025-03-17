@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .imagen-contenedor {
+            width: 30%;
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .imagen-contenedor img {
+            width: 100%;
+            height: 450px;
+            border-radius: 5px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 200px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>¿QUE SORPRESA QUIERES?</h1>
+    
+    <div class="contenedor">
+        <div class="imagen-contenedor">
+            <h1>ILUSTRACINES</h1>
+            <img src="https://i.pinimg.com/736x/6f/03/c3/6f03c307d6c3bf6ce75ec6a730a4e8b1.jpg" alt="Imagen 1">
+            <button class="button" onclick="window.location.href='Ilustraciones.html'">LO QUIERO</button>
+        </div>
+        <div class="imagen-contenedor">
+            <h1>PINTURAS</h1>
+            <img src="https://i.pinimg.com/474x/77/f3/37/77f3371357b6242f399679026da077b7.jpg" alt="Imagen 2">
+            <button class="button" onclick="window.location.href='ObrasArte.html'">LO QUIERO</button>
+        </div>
+        <div class="imagen-contenedor">
+            <h1>TIP ALEATORIO</h1>
+            <img src="https://i.pinimg.com/736x/a8/00/bb/a800bb45339a98420fec43375b45efe0.jpg" alt="Imagen 3">
+            <button class="button" onclick="window.location.href='Final.html'">LO QUIERO</button>
+        </div>
+    </div>
+
+</body>
+</html>
