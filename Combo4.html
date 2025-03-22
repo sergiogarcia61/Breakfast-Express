@@ -1,110 +1,153 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Combo4</title>
-        <div class="Encabezado"></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combo 4 - BREAKFAST EXPRESS</title>
+</head>
 
+<body>
+    <div class="informacion">
+        <h1>COMBO 4</h1>
+        <h1>ENERGÍA CLÁSICA</h1>
+        <img src="https://i.pinimg.com/736x/84/32/51/843251989c317d0753c7ae026b75add9.jpg" alt="Combo 4" class="imagen-principal"><br>
+        <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DÍA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEÍNA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS.</p>
+        <h1>PRODUCTOS</h1>
 
-    </head>
-
-
-    <body>
-        <div class="informacion">
-                <h1>COMBO 4</h1>
-                <h1>ENERGIA CLASICA</h1>
-
-                <img src="https://i.pinimg.com/736x/84/32/51/843251989c317d0753c7ae026b75add9.jpg" alt="Aqui deberia haber una imagen"><br>
-
-                <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DIA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEINA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS</p>
-                <h1>PRODUCTOS</h1>
-            
-            <div class="bebida">
-                <h2>BEBIDA LALA FRESA</h2><br>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgUAZS0y5AC5MDyG4JLg-DpIe8eHP4lxOYnQ&s" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>70  kcal (292 KJ)</p>
-                
-            </div>
-            <div class="comida1">
-                <h2>Barrita DE CEREALES</h2>
-                <img src="https://carrefourar.vtexassets.com/arquivos/ids/365140/77916525_E02.jpg?v=638267770845870000" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>168 kcal (702 KJ)</p>
-            </div>
-            <div class="comida2">
-                <h2>SABRITAS CLASICAS</h2>
-                <img src="https://www.grillhouse.mx/cdn/shop/files/Sabritasoriginales160g_800x.jpg?v=1716216548" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>162 kcal (677 KJ)</p>
-            </div>
+        <!-- Bebida: Lala Fresa -->
+        <div class="producto">
+            <h2>BEBIDA LALA FRESA</h2><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgUAZS0y5AC5MDyG4JLg-DpIe8eHP4lxOYnQ&s" alt="Bebida Lala Fresa" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>70 kcal (292 KJ)</p>
         </div>
-        <div class="botones">
-            <a href="./ElegirSorpresa.html">
-                <button style="background-color: lightgreen;">PEDIR COMBO</button>
-            </a>
-            <a href="./Principal.html">
-                <button style="background-color: lightcoral;">ELEGIR OTRO</button>
-            </a>
+
+        <!-- Comida: Barrita de Cereal -->
+        <div class="producto">
+            <h2>BARRITA DE CEREALES</h2>
+            <img src="https://carrefourar.vtexassets.com/arquivos/ids/365140/77916525_E02.jpg?v=638267770845870000" alt="Barrita de Cereal" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>168 kcal (702 KJ)</p>
         </div>
-        
 
+        <!-- Comida: Sabritas -->
+        <div class="producto">
+            <h2>SABRITAS CLÁSICAS</h2>
+            <img src="https://www.grillhouse.mx/cdn/shop/files/Sabritasoriginales160g_800x.jpg?v=1716216548" alt="Sabritas Clásicas" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>162 kcal (677 KJ)</p>
+        </div>
+    </div>
 
-    </body>
+    <!-- Botones -->
+    <div class="botones">
+        <a href="./ElegirSorpresa.html">
+            <button class="boton-combo">PEDIR COMBO</button>
+        </a>
+        <a href="./Principal.html">
+            <button class="boton-otro">ELEGIR OTRO</button>
+        </a>
+    </div>
 
+</body>
 
-    <style>
-        .informacion{
-            text-align: center;
-            
-        }
-        .bebida{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-            
-            
-           
-           
-        }
-        .comida1{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        .comida2{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        body{
-            font-family: 'Arial', sans-serif;
-            background-color: CYAN;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        button{
-            padding: 14px 20px;
-            cursor: pointer;
-        }
+<style>
+    /* Estilos generales */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4; /* Fondo neutro */
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
 
+    /* Contenedor principal */
+    .informacion {
+        text-align: center;
+        max-width: 900px;
+        width: 100%;
+        padding: 20px;
+        background-color: #ffffff; /* Fondo blanco para el contenedor */
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        margin-top: 20px;
+    }
 
+    .informacion h1 {
+        color: #2c3e50;
+    }
 
+    .informacion p {
+        color: #555;
+        font-size: 16px;
+        margin: 10px 0;
+    }
 
-    </style>
+    /* Imagen principal */
+    .imagen-principal {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 
+    /* Tarjetas de productos */
+    .producto {
+        text-align: center;
+        border: 2px solid #ddd;
+        border-radius: 15px;
+        background-color: #fafafa;
+        padding: 20px;
+        margin-top: 20px;
+    }
 
+    .producto h2 {
+        color: #2c3e50;
+    }
 
+    /* Botones */
+    .botones {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 400px;
+    }
 
+    .boton-combo, .boton-otro {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
 
+    .boton-combo {
+        background-color: #81c784; /* Color verde suave */
+    }
 
+    .boton-otro {
+        background-color: #ff7043; /* Color coral suave */
+    }
 
+    .boton-combo:hover {
+        background-color: #66bb6a;
+    }
+
+    .boton-otro:hover {
+        background-color: #ff5722;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+</style>
 
 </html>

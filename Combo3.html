@@ -1,110 +1,153 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Combo3</title>
-        <div class="Encabezado"></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combo 3 - BREAKFAST EXPRESS</title>
+</head>
 
+<body>
+    <div class="informacion">
+        <h1>COMBO 3</h1>
+        <h1>ENERGÍA CLÁSICA</h1>
+        <img src="https://i.pinimg.com/736x/d6/ac/18/d6ac182da7144adcab9621ce9d185467.jpg" alt="Combo 3" class="imagen-principal"><br>
+        <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DÍA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEÍNA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS.</p>
+        <h1>PRODUCTOS</h1>
 
-    </head>
-
-
-    <body>
-        <div class="informacion">
-                <h1>COMBO 3</h1>
-                <h1>ENERGIA CLASICA</h1>
-
-                <img src="https://i.pinimg.com/736x/d6/ac/18/d6ac182da7144adcab9621ce9d185467.jpg" alt="Aqui deberia haber una imagen"><br>
-
-                <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DIA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEINA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS</p>
-                <h1>PRODUCTOS</h1>
-            
-            <div class="bebida">
-                <h2>FRUTSI</h2><br>
-                <img src="https://regeneracion.mx/wp-content/uploads/2014/03/frutsi.jpg" alt="Imagen" width="400" height="300">
-                <h2>Valor energético</h2>
-                <p>4 kcal (16 KJ)</p>
-                
-            </div>
-            <div class="comida1">
-                <h2>CHOKIS CLASICA</h2>
-                <img src="https://chokis.com.mx/storage/products/WWULdmQDwsj8WnvdwS3gcVKvFz9DhCU1Fwq7HftJ.png" alt="Imagen" width="400" height="300">
-                <h2>Valor energético</h2>
-                <p>141 kcal (589 KJ)</p>
-            </div>
-            <div class="comida2">
-                <h2>TRAIL MIX</h2>
-                <img src="https://i5.walmartimages.com/seo/Great-Value-Omega-3-Trail-Mix-22-oz_2cee1c7b-726d-4731-a5b3-f1856a1ea271.38c8f2e33f52a413d0f2346538964d7d.jpeg" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>19 kcal (79 KJ)</p>
-            </div>
+        <!-- Bebida: Frutsi -->
+        <div class="producto">
+            <h2>FRUTSI</h2><br>
+            <img src="https://regeneracion.mx/wp-content/uploads/2014/03/frutsi.jpg" alt="Frutsi" width="400" height="300">
+            <h2>Valor energético</h2>
+            <p>4 kcal (16 KJ)</p>
         </div>
-        <div class="botones">
-            <a href="./ElegirSorpresa.html">
-                <button style="background-color: lightgreen;">PEDIR COMBO</button>
-            </a>
-            <a href="./Principal.html">
-                <button style="background-color: lightcoral;">ELEGIR OTRO</button>
-            </a>
+
+        <!-- Comida: Chokis -->
+        <div class="producto">
+            <h2>CHOKIS CLÁSICA</h2>
+            <img src="https://chokis.com.mx/storage/products/WWULdmQDwsj8WnvdwS3gcVKvFz9DhCU1Fwq7HftJ.png" alt="Chokis" width="400" height="300">
+            <h2>Valor energético</h2>
+            <p>141 kcal (589 KJ)</p>
         </div>
-        
 
+        <!-- Comida: Trail Mix -->
+        <div class="producto">
+            <h2>TRAIL MIX</h2>
+            <img src="https://i5.walmartimages.com/seo/Great-Value-Omega-3-Trail-Mix-22-oz_2cee1c7b-726d-4731-a5b3-f1856a1ea271.38c8f2e33f52a413d0f2346538964d7d.jpeg" alt="Trail Mix" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>19 kcal (79 KJ)</p>
+        </div>
+    </div>
 
-    </body>
+    <!-- Botones -->
+    <div class="botones">
+        <a href="./ElegirSorpresa.html">
+            <button class="boton-combo">PEDIR COMBO</button>
+        </a>
+        <a href="./Principal.html">
+            <button class="boton-otro">ELEGIR OTRO</button>
+        </a>
+    </div>
 
+</body>
 
-    <style>
-        .informacion{
-            text-align: center;
-            
-        }
-        .bebida{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-            
-            
-           
-           
-        }
-        .comida1{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        .comida2{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        body{
-            font-family: 'Arial', sans-serif;
-            background-color: CYAN;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        button{
-            padding: 14px 20px;
-            cursor:pointer
-        }
+<style>
+    /* Estilos generales */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4; /* Fondo neutro */
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
 
+    /* Contenedor principal */
+    .informacion {
+        text-align: center;
+        max-width: 900px;
+        width: 100%;
+        padding: 20px;
+        background-color: #ffffff; /* Fondo blanco para el contenedor */
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        margin-top: 20px;
+    }
 
+    .informacion h1 {
+        color: #2c3e50;
+    }
 
+    .informacion p {
+        color: #555;
+        font-size: 16px;
+        margin: 10px 0;
+    }
 
-    </style>
+    /* Imagen principal */
+    .imagen-principal {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 
+    /* Tarjetas de productos */
+    .producto {
+        text-align: center;
+        border: 2px solid #ddd;
+        border-radius: 15px;
+        background-color: #fafafa;
+        padding: 20px;
+        margin-top: 20px;
+    }
 
+    .producto h2 {
+        color: #2c3e50;
+    }
 
+    /* Botones */
+    .botones {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 400px;
+    }
 
+    .boton-combo, .boton-otro {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
 
+    .boton-combo {
+        background-color: #81c784; /* Color verde suave */
+    }
 
+    .boton-otro {
+        background-color: #ff7043; /* Color coral suave */
+    }
 
+    .boton-combo:hover {
+        background-color: #66bb6a;
+    }
+
+    .boton-otro:hover {
+        background-color: #ff5722;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+</style>
 
 </html>

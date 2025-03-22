@@ -1,110 +1,143 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Combo2</title>
-        <div class="Encabezado"></div>
+<head>
+    <title>Combo 2 - BREAKFAST EXPRESS</title>
+</head>
 
+<body>
+    <div class="informacion">
+        <h1>COMBO 2</h1>
+        <h1>ENERGÍA CLÁSICA</h1>
+        <img src="https://i.pinimg.com/736x/a5/2e/d1/a52ed1bdd3829c649f8977894eb6817a.jpg" alt="Combo 2" style="max-width: 100%; height: auto;"><br>
+        <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DÍA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEÍNA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS.</p>
+        <h1>PRODUCTOS</h1>
 
-    </head>
-
-
-    <body>
-        <div class="informacion">
-                <h1>COMBO 2</h1>
-                <h1>ENERGIA CLASICA</h1>
-
-                <img src="https://i.pinimg.com/736x/a5/2e/d1/a52ed1bdd3829c649f8977894eb6817a.jpg" alt="Aqui deberia haber una imagen"><br>
-
-                <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DIA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEINA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS</p>
-                <h1>PRODUCTOS</h1>
-            
-            <div class="nectar">
-                <h2>JUGO DE NECTAR</h2><br>
-                <img src="https://hebmx.vtexassets.com/arquivos/ids/747558/85784_124560223.jpg?v=638521801713900000" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>38 kcal (158 KJ) </p>
-                
-            </div>
-            <div class="proteina">
-                <h2>Barrita NESTQUIK</h2>
-                <img src="https://yupy.es/113008-large_default/nesquik-barritas-25grx16ud.jpg" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>402 kcal (1686 KJ)</p>
-            </div>
-            <div class="mantecada">
-                <h2>Bimbo Mantecadas</h2>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLejzCMTXI2bUrq32qMAohejX88Feprrep6g&s" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>263 kcal (1100 KJ)</p>
-            </div>
+        <!-- Jugo de Nectares -->
+        <div class="nectar">
+            <h2>JUGO DE NÉCTAR</h2><br>
+            <img src="https://hebmx.vtexassets.com/arquivos/ids/747558/85784_124560223.jpg?v=638521801713900000" alt="Jugo de Nectares" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>38 kcal (158 KJ)</p>
         </div>
-        <div class="botones">
-            <a href="./ElegirSorpresa.html">
-                <button style="background-color: lightgreen;">PEDIR COMBO</button>
-            </a>
-            <a href="./Principal.html">
-                <button style="background-color: lightcoral;">ELEGIR OTRO</button>
-            </a>
+
+        <!-- Barrita Nesquik -->
+        <div class="proteina">
+            <h2>Barrita NESTQUIK</h2>
+            <img src="https://yupy.es/113008-large_default/nesquik-barritas-25grx16ud.jpg" alt="Barrita Nesquik" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>402 kcal (1686 KJ)</p>
         </div>
-        
 
+        <!-- Mantecadas -->
+        <div class="mantecada">
+            <h2>Bimbo Mantecadas</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLejzCMTXI2bUrq32qMAohejX88Feprrep6g&s" alt="Mantecadas" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>263 kcal (1100 KJ)</p>
+        </div>
+    </div>
 
-    </body>
+    <!-- Botones -->
+    <div class="botones">
+        <a href="./ElegirSorpresa.html">
+            <button class="boton-combo">PEDIR COMBO</button>
+        </a>
+        <a href="./Principal.html">
+            <button class="boton-otro">ELEGIR OTRO</button>
+        </a>
+    </div>
+</body>
 
+<style>
+    /* Estilos generales */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4; /* Fondo neutro */
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
 
-    <style>
-        .informacion{
-            text-align: center;
-            
-        }
-        .nectar{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-            
-            
-           
-           
-        }
-        .proteina{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        .mantecada{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        body{
-            font-family: 'Arial', sans-serif;
-            background-color: CYAN;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        button{
-            padding: 14px 20px;
-            cursor: pointer;
-        }
+    /* Contenedor principal */
+    .informacion {
+        text-align: center;
+        max-width: 900px;
+        width: 100%;
+        padding: 20px;
+        background-color: #ffffff; /* Fondo blanco para el contenedor */
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        margin-top: 20px;
+    }
 
+    .informacion h1 {
+        color: #2c3e50;
+    }
 
+    .informacion p {
+        color: #555;
+        font-size: 16px;
+        margin: 10px 0;
+    }
 
+    /* Tarjetas de productos */
+    .nectar, .proteina, .mantecada {
+        text-align: center;
+        border: 2px solid #ddd;
+        border-radius: 15px;
+        background-color: #fafafa;
+        padding: 20px;
+        margin-top: 20px;
+    }
 
-    </style>
+    .nectar h2, .proteina h2, .mantecada h2 {
+        color: #2c3e50;
+    }
 
+    /* Botones */
+    .botones {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 400px;
+    }
 
+    .boton-combo, .boton-otro {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
 
+    .boton-combo {
+        background-color: #81c784; /* Color verde suave */
+    }
 
+    .boton-otro {
+        background-color: #ff7043; /* Color coral suave */
+    }
 
+    .boton-combo:hover {
+        background-color: #66bb6a;
+    }
 
+    .boton-otro:hover {
+        background-color: #ff5722;
+    }
 
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+</style>
 
 </html>

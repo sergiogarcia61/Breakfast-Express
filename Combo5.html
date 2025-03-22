@@ -1,110 +1,153 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Combo5</title>
-        <div class="Encabezado"></div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combo 5 - BREAKFAST EXPRESS</title>
+</head>
 
+<body>
+    <div class="informacion">
+        <h1>COMBO 5</h1>
+        <h1>ENERGÍA CLÁSICA</h1>
+        <img src="https://i.pinimg.com/736x/09/a6/ea/09a6eaa80f14ae544c95a8f795164885.jpg" alt="Combo 5" class="imagen-principal"><br>
+        <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DÍA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEÍNA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS.</p>
+        <h1>PRODUCTOS</h1>
 
-    </head>
-
-
-    <body>
-        <div class="informacion">
-                <h1>COMBO 5</h1>
-                <h1>ENERGIA CLASICA</h1>
-
-                <img src="https://i.pinimg.com/736x/09/a6/ea/09a6eaa80f14ae544c95a8f795164885.jpg" alt="Aqui deberia haber una imagen"><br>
-
-                <p>ESTE ES UN COMBO PERFECTO PARA EMPEZAR TU DIA DE PRODUCTIVA ACTIVIDAD Y APRENDIZAJE CON PROTEINA Y LECHE DE SABOR A TU GUSTO CON UN TOQUE DULCE DE LAS GALLETAS</p>
-                <h1>PRODUCTOS</h1>
-            
-            <div class="bebida">
-                <h2>AGUA</h2><br>
-                <img src="https://supermode.com.mx/cdn/shop/products/100001349_3f69072c-f5e1-4b8b-a53c-4a067bd14e3e.jpg?v=1698796779" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>0  kcal (0 KJ)</p>
-                
-            </div>
-            <div class="comida1">
-                <h2>SNICKERS</h2>
-                <img src="https://pi.nice-cdn.com/upload/image/product/large/default/snickers-classic-50-g-1228608-es.jpg" alt="Imagen" width="450" height="250">
-                <h2>Valor energético</h2>
-                <p>241 kcal (1009 KJ)</p>
-            </div>
-            <div class="comida2">
-                <h2>OREO MINI</h2>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT47r7Qv4hFJS_HORHj3qCBzfjHRxSkfs4I6O7yXHE314eu_4fi55m4Rxg9BTRStyJLie0&usqp=CAU" alt="Imagen" width="300" height="300">
-                <h2>Valor energético</h2>
-                <p>477 kcal (1995 KJ)</p>
-            </div>
+        <!-- Bebida: Agua -->
+        <div class="producto">
+            <h2>AGUA</h2><br>
+            <img src="https://supermode.com.mx/cdn/shop/products/100001349_3f69072c-f5e1-4b8b-a53c-4a067bd14e3e.jpg?v=1698796779" alt="Agua" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>0 kcal (0 KJ)</p>
         </div>
-        <div class="botones">
-            <a href="./ElegirSorpresa.html">
-                <button style="background-color: lightgreen;">PEDIR COMBO</button>
-            </a>
-            <a href="./Principal.html">
-                <button style="background-color: lightcoral;">ELEGIR OTRO</button>
-            </a>
+
+        <!-- Comida: Snickers -->
+        <div class="producto">
+            <h2>SNICKERS</h2>
+            <img src="https://pi.nice-cdn.com/upload/image/product/large/default/snickers-classic-50-g-1228608-es.jpg" alt="Snickers" width="450" height="250">
+            <h2>Valor energético</h2>
+            <p>241 kcal (1009 KJ)</p>
         </div>
-        
 
+        <!-- Comida: Oreo Mini -->
+        <div class="producto">
+            <h2>OREO MINI</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT47r7Qv4hFJS_HORHj3qCBzfjHRxSkfs4I6O7yXHE314eu_4fi55m4Rxg9BTRStyJLie0&usqp=CAU" alt="Oreo Mini" width="300" height="300">
+            <h2>Valor energético</h2>
+            <p>477 kcal (1995 KJ)</p>
+        </div>
+    </div>
 
-    </body>
+    <!-- Botones -->
+    <div class="botones">
+        <a href="./ElegirSorpresa.html">
+            <button class="boton-combo">PEDIR COMBO</button>
+        </a>
+        <a href="./Principal.html">
+            <button class="boton-otro">ELEGIR OTRO</button>
+        </a>
+    </div>
 
+</body>
 
-    <style>
-        .informacion{
-            text-align: center;
-            
-        }
-        .bebida{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-            
-            
-           
-           
-        }
-        .comida1{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        .comida2{
-            text-align: center;
-            border: 5px solid black;
-            border-radius: 20px;
-            background-color: aquamarine;
-        }
-        body{
-            font-family: 'Arial', sans-serif;
-            background-color: CYAN;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-        }
-        button{
-            padding: 14px 20px;
-            cursor: pointer;
-        }
+<style>
+    /* Estilos generales */
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4; /* Fondo neutro */
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+    }
 
+    /* Contenedor principal */
+    .informacion {
+        text-align: center;
+        max-width: 900px;
+        width: 100%;
+        padding: 20px;
+        background-color: #ffffff; /* Fondo blanco para el contenedor */
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        margin-top: 20px;
+    }
 
+    .informacion h1 {
+        color: #2c3e50;
+    }
 
+    .informacion p {
+        color: #555;
+        font-size: 16px;
+        margin: 10px 0;
+    }
 
-    </style>
+    /* Imagen principal */
+    .imagen-principal {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 
+    /* Tarjetas de productos */
+    .producto {
+        text-align: center;
+        border: 2px solid #ddd;
+        border-radius: 15px;
+        background-color: #fafafa;
+        padding: 20px;
+        margin-top: 20px;
+    }
 
+    .producto h2 {
+        color: #2c3e50;
+    }
 
+    /* Botones */
+    .botones {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 400px;
+    }
 
+    .boton-combo, .boton-otro {
+        width: 100%;
+        padding: 14px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
 
+    .boton-combo {
+        background-color: #81c784; /* Color verde suave */
+    }
 
+    .boton-otro {
+        background-color: #ff7043; /* Color coral suave */
+    }
 
+    .boton-combo:hover {
+        background-color: #66bb6a;
+    }
+
+    .boton-otro:hover {
+        background-color: #ff5722;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+</style>
 
 </html>

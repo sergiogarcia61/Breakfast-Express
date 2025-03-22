@@ -3,74 +3,92 @@
     <head>
         <div class="Entrada">
             <a href="./Principal.html">
-                <button style="padding: 10px 20px; background-color:lightcoral; color:blue">Entrar como invitado</button>
+                <button class="button">Entrar como invitado</button>
             </a>
             <a href="./Login.html">
-                <button style="padding: 10px 40px; background-color:lightgreen; color:blue">Iniciar Sesion</button>
+                <button class="button">Iniciar Sesión</button>
             </a>
-
-
-
-
         </div>
         <title>BREAKFAST EXPRESS</title>
         <header>
             <div class="Inicio">
-                <h1 style="color:black;">BIENVENIDO A BREAKFAST EXPRESS</h1>
-                <img src="https://i.pinimg.com/736x/5c/78/74/5c787489e1f781ba5a7688f900a0e476.jpg" alt="Aquí deberia ir una imagen" height="500" width="500">
-    
+                <h1>BIENVENIDO A BREAKFAST EXPRESS</h1>
+                <img src="https://i.pinimg.com/736x/5c/78/74/5c787489e1f781ba5a7688f900a0e476.jpg" alt="Imagen desayuno" height="500" width="500">
             </div>
-            
         </header>
-
     </head>
-
+    
     <body>
-        <br>
         <div class="Body">
-            <h1>¿EN QUE CONSISTE BREAKFAST EXPRESS?</h1>
-            <P>BREAKFAST ofrece combos de desayuno prácticos con productos de marcas reconocidas, ideales para quienes tienen poco tiempo. <br/> Cada compra incluye una tarjeta con mensajes motivacionales, tips o ilustraciones.</P>
+            <h1>¿EN QUÉ CONSISTE BREAKFAST EXPRESS?</h1>
+            <p>BREAKFAST ofrece combos de desayuno prácticos con productos de marcas reconocidas, ideales para quienes tienen poco tiempo. Cada compra incluye una tarjeta con mensajes motivacionales, tips o ilustraciones.</p>
             <a href="./Principal.html">
-                <button style="background-color: aqua; padding: 14px 20px; ">ACCESO A LA PAGINA PRINCIPAL</button>
+                <button class="button">ACCESO A LA PÁGINA PRINCIPAL</button>
             </a>
         </div>   
-
-
-        
-        
     </body>
-
+    
     <style>
-        .Inicio{
+        /* Estilos generales */
+        body {
+            background-color: #f4f4f4; /* Fondo suave */
+            color: #333333; /* Texto oscuro para buena legibilidad */
+            font-family: Arial, sans-serif; /* Fuente limpia */
+        }
+    
+        /* Estilos para el encabezado */
+        .Inicio {
             text-align: center;
-            background-color: cyan;
-            
+            background-color: #eaeaea; /* Fondo suave para el encabezado */
+            padding: 20px;
         }
-        .Body{
-            background-color: lightskyblue;
+    
+        .Inicio h1 {
+            color: #2c3e50; /* Gris oscuro para el título */
+        }
+    
+        /* Estilos para el contenedor del contenido principal */
+        .Body {
+            background-color: #ffffff; /* Fondo blanco suave */
+            color: #555555; /* Texto gris suave */
             text-align: center;
-            border: 5px solid black;
-            border-radius: 30px;
-            
+            border: 1px solid #ccc; /* Borde gris suave */
+            border-radius: 15px; /* Bordes redondeados */
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
         }
-        body{
-            background-color: cyan;
+    
+        .Body h1 {
+            color: #2c3e50; /* Gris oscuro para los encabezados */
         }
-        .Entrada{
-            text-align: right;
+    
+        .Body p {
+            line-height: 1.6; /* Mejorar la legibilidad */
         }
-        .button{
+    
+        /* Estilos para los botones */
+        .button {
             padding: 10px 20px;
-            background-color: aqua;
-            border: 2px;
+            background-color: #b0bec5; /* Gris suave */
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin: 10px;
         }
-
-
-
-
-
-
+    
+        .button:hover {
+            background-color: #90a4ae; /* Gris más oscuro al pasar el mouse */
+        }
+    
+        /* Estilo para la barra de entrada */
+        .Entrada {
+            text-align: right;
+            margin-top: 20px;
+        }
     </style>
 
 
